@@ -28,7 +28,7 @@ except ImportError:
 
 
 class YowNoiseLayer(YowLayer):
-    DEFAULT_PUSHNAME = "yowsup"
+    DEFAULT_PUSHNAME = "Persib"
     HEADER = b'WA\x03\x00'
     EDGE_HEADER = b'ED\x00\x01'
     EVENT_HANDSHAKE_FAILED = "org.whatsapp.yowsup.layer.noise.event.handshake_failed"
